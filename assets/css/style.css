@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;;
+}
+.row{
+    margin: 0;
+}
+header{
+    background-color:rgba(255, 141, 219, 0.975);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+h1{
+    display: inline-block;
+    font-size: 70px;
+    color:white;
+    padding-top: 5px;
+}
+h2{
+    color:white;
+    font-size: 30px;
+}
+.titulos{
+    padding-left: 20px;
+}
+nav{
+    font-size:18px ;
+}
+#navbar{
+    background-color:rgba(255, 141, 219, 0.975) ;
+}
+.nav-link{
+    color: white;
+}
+#seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+}
+#imagen_section{
+    padding-left: 100px;
+}
+#texto_imagen{
+    display: flex;
+    flex-direction: column;
+    font-size: 55px;
+    justify-content: center;
+    color:rgba(255, 141, 219, 0.975) ;
+    text-decoration: underline;
+}
+.parrafo_imagen{
+    font-size:50px;
+    text-decoration: underline;
+    color:rgba(255, 141, 219, 0.975)
+}
+.text{
+    color: goldenrod;
+}
+article{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color:rgba(255, 141, 219, 0.975) ;
+}
+#iconos{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    font-size:30px;
+    padding-right: 25px;
+    color: white;
+}
+#ContenidoFooter{
+    font-size:15px;
+    padding:20px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.texto__article{
+    color:white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*PRODUCTOS*/
+
+#header_productos{
+    background-color: black;
+}
+#seccion_productos{
+    background-color: black;
+}
+#imagenes_productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:100px 0 100px 100px
+}
+#h1_productos{
+    color:rgba(255, 141, 219, 0.975);
+}
+.descripción{
+    color: rgb(254, 228, 81);
+    font-size: 20px;
+}
+
+#nav_productos{
+    color: rgba(255, 141, 219, 0.975);
+}
+
+/*NOSOTROS*/
+.seccion_nosotros{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.card{
+    background-color: black;
+    color: rgb(254, 228, 81);
+}
+.seccion_sucursales{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+.rounded-circle{
+    padding: 50px;
+}
+#sucursales{
+    display: flex;
+    justify-content:space-around;
+
+}
+#sucursales2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 50px;
+}
+#iconos_sucursales{
+    padding: 20px;
+    color: rgb(254, 228, 81);
+    font-size: 20px;
+}
+/*CONTACTOS*/
+#columna_formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 71px;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitulo_contacto{
+    color:rgba(255, 141, 219, 0.975);
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 50px;
+}
+#columna_subtitulo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}

@@ -2,49 +2,85 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/77ec6212d5.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="assets/scss/main.scss">
+    <link rel="icon" href="assets/img/logo.jpeg">
 
-    <title>SinCulpa-Inicio</title>
+    <title>SinCulpa</title>
 </head>
 
 <body>
-    <header>
-        <div>
-        <a>Logo</a>
-        <h1>Sin-Culpa</h1>
-        <h2>Pastelería</h2>
+    <div class="conteiner">
+        <header class="row">
+            <div class="col-7">
+                <div class="titulos">
+                    <h1>Sin-Culpa</h1>
+                    <h2>Pastelería</h2>
+                </div>
+            </div>
+            <div class="col-5">
+                <nav>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assets/pages/Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assets/pages/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assets/pages/Sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assets/pages/Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
 
+    <section class="conteiner" id="seccion">
+        <div class="row">
+            <div class="col-8" id="imagen_section">
+                <img src="assets/img/logo.jpeg" alt="logo" width="550px" height="auto">
+            </div>
+            <div class="col-4" id="texto_imagen">
+                <p>Lucila Ferreyra</p>
+                <p class="parrafo_imagen">Emprendedora</p>
+            </div>
         </div>
-        <div>
-        <nav>
-            <ul>
-                <li>Productos</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
-                <li>Sucursales</li>
-            </ul>
-        </nav>
+    </section>
+    <article class="row">
+        <div class="col-5">
+            <p class="texto__article"></p>
         </div>
-    </header>
-
-    <section>
-        <img src="" alt="logo">
-        <p>Logo de la empresa.</p>
+    </article>
     </section>
-        <article>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, fugit! Illo voluptate unde quae.
-                Expedita provident cum adipisci laborum explicabo culpa ratione. Nesciunt eius nam velit, vel odit quos
-                provident?
-            </p>
-        </article>
-    </section>
-    <footer>
-        <div>
-        <p>Redes</p>
-        <p>copyright-2022</p>
+    <footer class="conteiner">
+        <div class="row">
+            <div class="col-6" id="ContenidoFooter">
+                <span>© Copyright-2022</span>
+                <p>FrancoFerryra</p>
+            </div>
+            <div class="col-6" id="iconos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
         </div>
     </footer>
+    </div>
 
 </body>
 
