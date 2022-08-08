@@ -222,7 +222,7 @@ a:hover{
     justify-content: center;
 }
 /* RESPONSIVE*/
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     .carousel-item{
         width: 300px;
     }
@@ -234,6 +234,7 @@ a:hover{
     }
     #iconos{
         padding-bottom: 20px;
+        flex-direction:row-reverse;
     }
 
 }
@@ -245,10 +246,6 @@ a:hover{
  }
     #sucursales2{
         padding: 0;
-    }
-    #iconos{
-        flex-direction: row-reverse;
-        font-size: 20px;
     }
 @media screen and (max-width:540px) {
     .rounded-circle{
