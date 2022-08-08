@@ -52,13 +52,13 @@ nav{
 #texto_imagen{
     display: flex;
     flex-direction: column;
-    font-size: 55px;
+    font-size: 40px;
     justify-content: center;
     color:rgba(255, 141, 219, 0.975) ;
     text-decoration: underline;
 }
 .parrafo_imagen{
-    font-size:50px;
+    font-size:30px;
     text-decoration: underline;
     color:rgba(255, 141, 219, 0.975)
 }
@@ -96,6 +96,7 @@ i:hover{
     justify-content: center;
     color: white;
 }
+
 .texto__article{
     color:white;
     font-size:20px;
@@ -152,14 +153,15 @@ i:hover{
     align-items: center;
     flex-direction: column;
  }
-.rounded-circle{
+ .rounded-circle{
     padding: 50px;
+    height: 500px;
+    width: auto;
 }
 #sucursales{
     display: flex;
     justify-content:space-around;
     margin-right: 100px;
-
 }
 #sucursales2{
     display: flex;
@@ -218,4 +220,49 @@ a:hover{
     background-color: black;
     display: flex;
     justify-content: center;
+}
+/* RESPONSIVE*/
+@media screen and (max-width:992px) {
+    .carousel-item{
+        width: 300px;
+    }
+    #imagenes_productos{
+        padding: 0;
+    }
+    .logo_imagen{
+        padding: 50px 0 50px 0;
+    }
+    #iconos{
+        padding-bottom: 20px;
+    }
+
+}
+@media screen and (max-width:732px){
+    #sucursales{
+        margin-right: 0;
+        height: 50%;
+    }
+ }
+    #sucursales2{
+        padding: 0;
+    }
+    #iconos{
+        flex-direction: row-reverse;
+        font-size: 20px;
+    }
+@media screen and (max-width:540px) {
+    .rounded-circle{
+        height: 300px;
+    }
+}
+@media screen and (max-width:500px) {
+    .img_nosotros{
+        width:300px;
+    }
+}
+@media screen and (max-width:310px) {
+    .img_nosotros{
+        width: 100px;
+    }
+    
 }
